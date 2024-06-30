@@ -75,4 +75,7 @@ section {
 div {
     margin-right: 2.5em;
     min-width: 630px;
+    max-width: 760px;
 }
+
+
