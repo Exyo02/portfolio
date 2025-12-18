@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <main>
+        <nav>
+            <a href="../projets.html"><== Retour</a>
+        </nav>
+        <section class="projetPart">
+          <h2>Introduction</h2>
+          <p>
+            Un monde de cubes, ouvert et modifiable.
+          </p>
+        </section>
+        <section class="projetPart">
+          <h2>Méthodes d'optimisation</h2>
+          <p>
+            Afin d'optimiser l'usage des ressources système, j'ai mis en place plusieurs techniques :
+            <br>
+             • Dans un premier temps, pour minimiser la quantité de vertex, lier différentes 
+             faces en une seule à l'aide d'un modèle modulable :
+          </p>
+          <br>
+          <img src="../data/3DGame/FaceLine.html.png" width="960" height="540" alt="">
+          <br><br>
+          <p>
+             • Gestion multi-thread de la compression des vertex<br>
+             • Affiche uniquement les faces présentes devant le joueur<br>
+          </p>
+
+        </section>
+        <section class="projetPart">
+          <h2>Démonstration</h2>
+          <p>
+            Sur la vidéo ci-dessous, je présente la génération procédurale du monde, que l'on observe 
+            au cours des déplacements du joeur : <br>
+             • Par le bruit de Perlin en 2 dimensions quand on le considère du point de vue de la surface<br>
+             • Par le bruit de simplex en 3 Dimensions quand on le considère du point de vue de la génération de cavernes<br>
+          </p>
+          <br>
+          <video width="800" height="600" controls>
+              <source src="../data/3DGame/demo.mp4" type="video/mp4">
+            </video>
+        </section>
+    </main>
+  </body>
+</html>

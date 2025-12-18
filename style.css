@@ -12,10 +12,12 @@ h1 {
 h2 {
     font-size: 2em;
 }
+h3{
+    font-size: 1.7em;
+}
 
 p {
     font-size: 1.7em;
-    font-weight: 100;
     padding: 0;
     margin: 0;
 }
@@ -23,6 +25,10 @@ p {
 th {
     text-align: left;
     padding-right: 1.5em;
+    font-weight: 600;
+}
+td{
+    font-weight: 100;
 }
 
 main {
@@ -69,8 +75,12 @@ section {
     margin: 2em;
     margin-bottom: 3.5em;
     border-radius: 20px;
+}
+
+.proj{
     display: flex;
 }
+
 
 div {
     margin-right: 2.5em;
@@ -78,4 +88,12 @@ div {
     max-width: 770px;
 }
 
+.projetPart{
+    padding-right: 2.5em;
+}
 
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
