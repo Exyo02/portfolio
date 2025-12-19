@@ -6,18 +6,19 @@ body {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 h2 {
-    font-size: 2em;
-}
-h3{
     font-size: 1.7em;
 }
 
+h3{
+    font-size: 1.5em;
+}
+
 p {
-    font-size: 1.7em;
+    font-size: 1.2em;
     padding: 0;
     margin: 0;
 }
@@ -77,6 +78,10 @@ section {
     border-radius: 20px;
 }
 
+a:hover .proj{
+    border: 2px solid orange;
+}
+
 .proj{
     display: flex;
 }
@@ -97,3 +102,12 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+a:hover h2{
+    text-decoration: underline;
+}
+
+a:hover{
+    color: orange;
+}
+
